@@ -1,0 +1,40 @@
+"0","if(!require(""dplyr"")){"
+"0","  install.packages(""dplyr"")"
+"0","}"
+"0","if(!require(""igisci"")){"
+"0","  install.packages(""remotes"")"
+"0","  remotes::install_github(""iGISc/igisci"")"
+"0","}"
+"0","library(igisci)"
+"0","# print(ex(""""))"
+"0","print(exfiles())"
+"1","[38;5;246m# A tibble: 104 × 4[39m
+"
+"1","   dir        file                                   path                                           type 
+"
+"1","   [3m[38;5;246m<chr>[39m[23m      [3m[38;5;246m<chr>[39m[23m                                  [3m[38;5;246m<chr>[39m[23m                                          [3m[38;5;246m<chr>[39m[23m
+"
+"1","[38;5;250m 1[39m airquality CES4 Final Shapefile.shp               ex('airquality/CES4 Final Shapefile.shp')      shap…
+"
+"1","[38;5;250m 2[39m airquality Pollution by type US 1970 to 2016.xlsx ex('airquality/Pollution by type US 1970 to 2… xls  
+"
+"1","[38;5;250m 3[39m BayArea    BayAreaCounties.shp                    ex('BayArea/BayAreaCounties.shp')              shap…
+"
+"1","[38;5;250m 4[39m BayArea    BayAreaTracts.shp                      ex('BayArea/BayAreaTracts.shp')                shap…
+"
+"1","[38;5;250m 5[39m BayArea    BayArea_hillsh.tif                     ex('BayArea/BayArea_hillsh.tif')               TIFF 
+"
+"1","[38;5;250m 6[39m CA         CA_counties.shp                        ex('CA/CA_counties.shp')                       shap…
+"
+"1","[38;5;250m 7[39m CA         CAfreeways.shp                         ex('CA/CAfreeways.shp')                        shap…
+"
+"1","[38;5;250m 8[39m CA         ca_elev.tif                            ex('CA/ca_elev.tif')                           TIFF 
+"
+"1","[38;5;250m 9[39m CA         ca_elev_WGS84.tif                      ex('CA/ca_elev_WGS84.tif')                     TIFF 
+"
+"1","[38;5;250m10[39m CA         ca_hillsh_WGS84.tif                    ex('CA/ca_hillsh_WGS84.tif')                   TIFF 
+"
+"1","[38;5;246m# ℹ 94 more rows[39m
+"
+"1","[38;5;246m# ℹ Use `print(n = ...)` to see more rows[39m
+"

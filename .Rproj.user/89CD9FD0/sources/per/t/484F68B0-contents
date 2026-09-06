@@ -1,6 +1,9 @@
 # igisci require test
 
 ```{r}
+if(!require("dplyr")){
+  install.packages("dplyr")
+}
 if(!require("igisci")){
   install.packages("remotes")
   remotes::install_github("iGISc/igisci")
