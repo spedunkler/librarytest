@@ -1,0 +1,10 @@
+```{r}
+if(!require("igisci")){
+  install.packages("remotes")
+  remotes::install_github("iGISc/igisci")
+}
+library(igisci)
+# print(ex(""))
+print(exfiles())
+```
+
